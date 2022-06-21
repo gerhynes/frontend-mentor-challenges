@@ -1,0 +1,12 @@
+---
+title: Frontend Mentor Challenges
+layout: "base.njk"
+---
+
+<h2 class="heading heading--secondary">Projects go here</h2>
+
+{% for project in collections.projects %}
+<a href="{{ project.url }}">
+  <h3 class="heading heading--tertiary">{{ project.data.title}}</h3>
+</a>
+{% endfor %}

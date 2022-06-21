@@ -1,0 +1,11 @@
+# npm dependencies
+node_modules
+
+# build artifacts
+public
+
+# secrets 
+.env
+
+# if you're on macOS
+.DS_Store
