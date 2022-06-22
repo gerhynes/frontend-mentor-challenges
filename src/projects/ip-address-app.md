@@ -1,5 +1,8 @@
 ---
 title: "IP Address App"
+summary: "This project uses two APIs and serverless functions to match IP addresses to map locations."
+image: "/images/projects/ip-address-app.png"
+imageAlt: "IP Address app"
 challengeUrl: "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0"
 siteUrl: "https://goofy-spence-1d3ac9.netlify.app/"
 repoUrl: "https://github.com/gerhynes/ip-address-tracker"

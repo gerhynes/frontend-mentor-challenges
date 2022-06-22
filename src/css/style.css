@@ -1,0 +1,57 @@
+/* CSS normalization */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Utility classes */
+
+.container {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.header {
+  padding: 1rem;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+
+.heading--main {
+  text-align: center;
+  font-weight: 600;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  text-align: center;
+  flex-shrink: 0;
+  padding: 0.5rem;
+}

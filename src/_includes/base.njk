@@ -7,15 +7,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" >
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="{{'/css/style.css' | url }}">
   <title>{{ title }}</title>
 </head>
 <body>
-  <header class="header">
-    <h1 class="heading heading--main">{{ title }}</h1>
-  </header>
-  <main>
+  {% include 'header.njk' %}
+  
+  <main class="main container">
     {{ content | safe }}
   </main>
+
+  {% include 'footer.njk' %}
+  
 </body>
 </html>
