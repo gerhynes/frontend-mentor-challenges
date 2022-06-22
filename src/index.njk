@@ -7,8 +7,11 @@ layout: "base.njk"
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, rerum perferendis quod perspiciatis officia dolor nobis quidem nisi exercitationem error porro soluta corrupti voluptas inventore ipsa neque saepe molestiae ad?
 
+<div class="project-grid">
+
 {% for project in collections.projects %}
-<a href="{{ project.url }}">
-  <h3 class="heading heading--tertiary">{{ project.data.title}}</h3>
-</a>
+
+{% include 'project-card.njk' %}
+
 {% endfor %}
+</div>
