@@ -1,6 +1,8 @@
 <div class="project__card">
   <div class="card__head">
-    <img class="card__image" src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}">
+    <a href="{{ project.url }}">
+     <img class="card__image" src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}">
+    </a>
   </div>
   <div class="card__body">
   <h3 class="heading heading--tertiary">
@@ -8,11 +10,11 @@
         {{ project.data.title }}
     </a>
   </h3>
-  {% for tag in project.data.tech %}
-
-  <p>{{ tag }}</p>
-
-  {% endfor %}
+  <div class="project__tags">
+    {% for tag in project.data.tech %}
+    <span class="project__tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
   <p>
     {{ project.data.summary }}
   </p>
