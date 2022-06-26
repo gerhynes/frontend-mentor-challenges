@@ -1,33 +1,31 @@
 ---
-title: "IP Address App"
-summary: "This project uses two APIs and serverless functions to match IP addresses to map locations."
-image: "/images/projects/ip-address-app.png"
-imageAlt: "IP Address app"
+title: "Base Apparel Coming Soon Page"
+summary: "This project involves a landing page and email signup form with client-side validation using JavaScript."
+image: "/images/projects/base-apparel-coming-soon-page.png"
+imageAlt: "Base Apparel Coming Soon Page"
 tech:
-  - "React"
-  - "Serverless Functions"
-  - "APIs"
-  - "Leaflet.js"
-difficulty: 3
-challengeUrl: "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0"
-siteUrl: "https://goofy-spence-1d3ac9.netlify.app/"
-repoUrl: "https://github.com/gerhynes/ip-address-tracker"
+  - "HTML"
+  - "CSS"
+difficulty: 1
+challengeUrl: "https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0"
+siteUrl: "https://base-apparel-coming-soon-gkhynes.vercel.app/"
+repoUrl: "https://github.com/gerhynes/base-apparel-coming-soon"
 ---
 
 ### Problem
 
 Users should be able to:
 
-- See their own IP Address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
-- View the optimal layout for each page depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+- Receive an error message when the form is submitted if:
+  - The input field is empty
+  - The email address is not formatted correctly
 
 ### Technologies Used
 
-- React.js
-- Leaflet.js
-- Serverless Functions
+- HTML
+- CSS
 
 ### Challenges
 

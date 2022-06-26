@@ -1,29 +1,34 @@
 ---
-title: "Job Listings App"
-summary: "This project parses job listings from a JSON file and uses JavaScript to filter them by category."
-image: "/images/projects/job-listings-app.png"
-imageAlt: "Job listings board"
+title: "Ping Coming Soon Page"
+summary: "This project is a coming soon landing page with client-side form validation."
+image: "/images/projects/ping-coming-soon-page.png"
+imageAlt: "Ping Coming Soon Page"
 tech:
-  - "React"
-  - "Tailwind CSS"
-difficulty: 3
-challengeUrl: "https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt"
-siteUrl: "https://job-listings-with-filtering-puce.vercel.app/"
-repoUrl: "https://github.com/gerhynes/job-listings-with-filtering"
+  - "HTML"
+  - "CSS"
+  - "JavaScript"
+difficulty: 1
+challengeUrl: "https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da"
+siteUrl: "https://ping-coming-soon-page-mocha.vercel.app/"
+repoUrl: "https://github.com/gerhynes/ping-coming-soon-page"
 ---
 
 ### Problem
 
 Users should be able to:
 
-- Filter job listings based on the categories selected
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+- Submit their email address using an input field
+- Receive an error message when the form is submitted if:
+  - The input field is empty
+  - The email address is not formatted correctly
 
 ### Technologies Used
 
-- React.js
-- Tailwind CSS
+- HTML
+- CSS
+- JavaScript
 
 ### Challenges
 

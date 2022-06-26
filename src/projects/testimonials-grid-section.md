@@ -1,33 +1,25 @@
 ---
-title: "IP Address App"
-summary: "This project uses two APIs and serverless functions to match IP addresses to map locations."
-image: "/images/projects/ip-address-app.png"
-imageAlt: "IP Address app"
+title: "Testimonials Grid Section"
+summary: "This project uses CSS Grid to build a responsive testimonials component."
+image: "/images/projects/testimonials-grid-section.png"
+imageAlt: "Testimonials Grid Section"
 tech:
-  - "React"
-  - "Serverless Functions"
-  - "APIs"
-  - "Leaflet.js"
-difficulty: 3
-challengeUrl: "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0"
-siteUrl: "https://goofy-spence-1d3ac9.netlify.app/"
-repoUrl: "https://github.com/gerhynes/ip-address-tracker"
+  - "HTML"
+  - "CSS"
+difficulty: 2
+challengeUrl: "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7"
+siteUrl: "https://testimonials-grid-section-azure.vercel.app/"
+repoUrl: "https://github.com/gerhynes/testimonials-grid-section"
 ---
 
 ### Problem
 
-Users should be able to:
-
-- See their own IP Address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements on the page
+Users should be able to view the optimal layout for the site depending on their device's screen size
 
 ### Technologies Used
 
-- React.js
-- Leaflet.js
-- Serverless Functions
+- HTML
+- CSS
 
 ### Challenges
 

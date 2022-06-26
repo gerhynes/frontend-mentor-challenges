@@ -1,33 +1,28 @@
 ---
-title: "IP Address App"
-summary: "This project uses two APIs and serverless functions to match IP addresses to map locations."
-image: "/images/projects/ip-address-app.png"
-imageAlt: "IP Address app"
+title: "Single Price Grid Component"
+summary: "This project involves building out a sign-up form complete with client-side validation using JavaScript."
+image: "/images/projects/single-price-grid-component.png"
+imageAlt: "Single Price Grid Component"
 tech:
-  - "React"
-  - "Serverless Functions"
-  - "APIs"
-  - "Leaflet.js"
-difficulty: 3
-challengeUrl: "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0"
-siteUrl: "https://goofy-spence-1d3ac9.netlify.app/"
-repoUrl: "https://github.com/gerhynes/ip-address-tracker"
+  - "HTML"
+  - "CSS"
+difficulty: 1
+challengeUrl: "https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc"
+siteUrl: "https://single-price-grid-component-two-flame.vercel.app/"
+repoUrl: "https://github.com/gerhynes/single-price-grid-component"
 ---
 
 ### Problem
 
 Users should be able to:
 
-- See their own IP Address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
-- View the optimal layout for each page depending on their device's screen size
+- View the optimal layout for the component depending on their device's screen size
 - See hover states for all interactive elements on the page
 
 ### Technologies Used
 
-- React.js
-- Leaflet.js
-- Serverless Functions
+- HTML
+- CSS
 
 ### Challenges
 

@@ -7,6 +7,7 @@ tech:
   - "CSS Grid"
   - "CSS Custom Properties"
   - "Dark Mode"
+difficulty: 2
 challengeUrl: "https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H"
 siteUrl: "https://social-media-dashboard-five-coral.vercel.app/"
 repoUrl: "https://github.com/gerhynes/social-media-dashboard"
