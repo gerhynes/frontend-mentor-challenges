@@ -21,6 +21,13 @@ Users should be able to:
 
 ### Technologies Used
 
+- React.js
+- Tailwind CSS
+
 ### Challenges
 
+Pellentesque diam volutpat commodo sed egestas egestas fringilla. Eget dolor morbi non arcu risus quis varius quam quisque. Natoque penatibus et magnis dis parturient. In arcu cursus euismod quis. Diam sit amet nisl suscipit adipiscing.
+
 ### Lessons Learned
+
+Pellentesque diam volutpat commodo sed egestas egestas fringilla. Eget dolor morbi non arcu risus quis varius quam quisque. Natoque penatibus et magnis dis parturient. In arcu cursus euismod quis. Diam sit amet nisl suscipit adipiscing.
