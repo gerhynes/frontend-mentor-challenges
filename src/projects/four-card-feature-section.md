@@ -2,11 +2,13 @@
 title: "Four Card Feature Section"
 summary: "This project involves a responsive feature section."
 image: "/images/projects/four-card-feature-section.png"
+imageMobile: "/images/projects/four-card-feature-section-mobile.png"
 imageAlt: "Four Card Feature Section"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 1
+difficultyNumber: 1
+difficultyDescription: "newbie"
 challengeUrl: "https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK"
 siteUrl: "https://four-card-feature-section-gkhynes.vercel.app/"
 repoUrl: "https://github.com/gerhynes/four-card-feature-section"

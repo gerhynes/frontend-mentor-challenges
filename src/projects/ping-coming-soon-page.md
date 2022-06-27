@@ -2,12 +2,14 @@
 title: "Ping Coming Soon Page"
 summary: "This project is a coming soon landing page with client-side form validation."
 image: "/images/projects/ping-coming-soon-page.png"
+imageMobile: "/images/projects/ping-coming-soon-page-mobile.png"
 imageAlt: "Ping Coming Soon Page"
 tech:
   - "HTML"
   - "CSS"
   - "JavaScript"
-difficulty: 1
+difficultyNumber: 1
+difficultyDescription: "newbie"
 challengeUrl: "https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da"
 siteUrl: "https://ping-coming-soon-page-mocha.vercel.app/"
 repoUrl: "https://github.com/gerhynes/ping-coming-soon-page"

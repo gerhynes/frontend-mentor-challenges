@@ -2,11 +2,13 @@
 title: "Intro Component with Signup Form"
 summary: "This project involves building out a sign-up form complete with client-side validation using JavaScript."
 image: "/images/projects/intro-component-with-signup-form.png"
+imageMobile: "/images/projects/intro-component-with-signup-form-mobile.png"
 imageAlt: "Intro Component with Signup Form"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 1
+difficultyNumber: 1
+difficultyDescription: "newbie"
 challengeUrl: "https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1"
 siteUrl: "https://intro-component-with-signup-form-gkhynes.vercel.app/"
 repoUrl: "https://github.com/gerhynes/intro-component-with-signup-form"

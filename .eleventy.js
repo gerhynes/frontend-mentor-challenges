@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
     "projectsByDifficulty",
     function (collectionApi) {
       return collectionApi.getFilteredByGlob("**/*.md").sort(function (a, b) {
-        return b.data.difficulty - a.data.difficulty;
+        return b.data.difficultyNumber - a.data.difficultyNumber;
       });
     }
   );

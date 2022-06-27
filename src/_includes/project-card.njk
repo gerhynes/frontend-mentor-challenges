@@ -1,21 +1,31 @@
 <div class="project-card">
-  <div class="card__head">
+  <div class="project-card__head">
     <a href="{{ project.url }}">
-     <img class="card__image" src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}">
+     <img class="project-card__image" src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}">
     </a>
   </div>
-  <div class="card__body">
-  <h3 class="heading heading--tertiary card__heading">
+  <div class="project-card__body">
+  <h3 class="heading heading--tertiary project-card__heading">
     <a href="{{ project.url }}">
         {{ project.data.title }}
     </a>
   </h3>
-  <div class="project__tags">
-    {% for tag in project.data.tech %}
-    <span class="project__tag">{{ tag }}</span>
-    {% endfor %}
+  <div class="project-card__details">
+    <div class="project-card__tags">
+      {% for tag in project.data.tech %}
+      <span class="project-card__tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <div class="project-card__difficulty project-card__difficulty--{{project.data.difficultyDescription}}">
+      <span class="project-card__difficulty-number project-card__difficulty-number--{{project.data.difficultyDescription}}">
+        {{ project.data.difficultyNumber }}
+      </span>
+      <span class="project-card__difficulty-description project-card__difficulty-description--{{project.data.difficultyDescription}}">
+        {{ project.data.difficultyDescription }}
+      </span>
+    </div>
   </div>
-  <p class="project__summary">
+  <p class="project-card__summary">
     {{ project.data.summary }}
   </p>
   </div>

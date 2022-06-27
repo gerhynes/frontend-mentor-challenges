@@ -2,11 +2,13 @@
 title: "Job Listings App"
 summary: "This project parses job listings from a JSON file and uses JavaScript to filter them by category."
 image: "/images/projects/job-listings-app.png"
+imageMobile: "/images/projects/job-listings-app-mobile.png"
 imageAlt: "Job listings board"
 tech:
   - "React"
   - "Tailwind CSS"
-difficulty: 3
+difficultyNumber: 3
+difficultyDescription: "intermediate"
 challengeUrl: "https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt"
 siteUrl: "https://job-listings-with-filtering-puce.vercel.app/"
 repoUrl: "https://github.com/gerhynes/job-listings-with-filtering"

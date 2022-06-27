@@ -2,11 +2,13 @@
 title: "Testimonials Grid Section"
 summary: "This project uses CSS Grid to build a responsive testimonials component."
 image: "/images/projects/testimonials-grid-section.png"
+imageMobile: "/images/projects/testimonials-grid-section-mobile.png"
 imageAlt: "Testimonials Grid Section"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 2
+difficultyNumber: 2
+difficultyDescription: "junior"
 challengeUrl: "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7"
 siteUrl: "https://testimonials-grid-section-azure.vercel.app/"
 repoUrl: "https://github.com/gerhynes/testimonials-grid-section"

@@ -2,11 +2,13 @@
 title: "Profile Card Component"
 summary: "This project is a coming soon landing page with client-side form validation."
 image: "/images/projects/profile-card-component.png"
+imageMobile: "/images/projects/profile-card-component-mobile.png"
 imageAlt: "Profile Card Component"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 1
+difficultyNumber: 1
+difficultyDescription: "newbie"
 challengeUrl: "https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
 siteUrl: "https://profile-card-component-nu.vercel.app/"
 repoUrl: "https://github.com/gerhynes/profile-card-component"

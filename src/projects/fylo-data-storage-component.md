@@ -2,11 +2,13 @@
 title: "Fylo Data Storage Component"
 summary: "This project involves a responsive data storage component."
 image: "/images/projects/fylo-data-storage-component.png"
+imageMobile: "/images/projects/fylo-data-storage-component-mobile.png"
 imageAlt: "Fylo Data Storage Component"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 2
+difficultyNumber: 2
+difficultyDescription: "junior"
 challengeUrl: "https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n"
 siteUrl: "https://fylo-data-storage-component-wine.vercel.app/"
 repoUrl: "https://github.com/gerhynes/fylo-data-storage-component"

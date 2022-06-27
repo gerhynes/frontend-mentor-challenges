@@ -2,11 +2,13 @@
 title: "Coding Bootcamp Testimonials Slider"
 summary: "This project involves a responsive testimonial slider."
 image: "/images/projects/coding-bootcamp-testimonials-slider.png"
+imageMobile: "/images/projects/coding-bootcamp-testimonials-slider-mobile.png"
 imageAlt: "Coding Bootcamp Testimonials Slider"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 2
+difficultyNumber: 2
+difficultyDescription: "junior"
 challengeUrl: "https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL"
 siteUrl: "https://coding-bootcamp-testimonials-slider-gkhynes.vercel.app/"
 repoUrl: "https://github.com/gerhynes/coding-bootcamp-testimonials-slider"

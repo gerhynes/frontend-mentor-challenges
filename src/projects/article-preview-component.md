@@ -2,11 +2,13 @@
 title: "Article Preview Component"
 summary: "This project involves building out a sign-up form complete with client-side validation using JavaScript."
 image: "/images/projects/article-preview-component.png"
+imageMobile: "/images/projects/article-preview-component-mobile.png"
 imageAlt: "Article Preview Component"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 1
+difficultyNumber: 1
+difficultyDescription: "newbie"
 challengeUrl: "https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT"
 siteUrl: "https://article-preview-component-eight.vercel.app/"
 repoUrl: "https://github.com/gerhynes/article-preview-component"

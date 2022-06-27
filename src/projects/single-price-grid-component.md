@@ -2,11 +2,13 @@
 title: "Single Price Grid Component"
 summary: "This project involves building out a sign-up form complete with client-side validation using JavaScript."
 image: "/images/projects/single-price-grid-component.png"
+imageMobile: "/images/projects/single-price-grid-component-mobile.png"
 imageAlt: "Single Price Grid Component"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 1
+difficultyNumber: 1
+difficultyDescription: "newbie"
 challengeUrl: "https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc"
 siteUrl: "https://single-price-grid-component-two-flame.vercel.app/"
 repoUrl: "https://github.com/gerhynes/single-price-grid-component"

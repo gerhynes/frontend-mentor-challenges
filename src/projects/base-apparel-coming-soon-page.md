@@ -2,11 +2,13 @@
 title: "Base Apparel Coming Soon Page"
 summary: "This project involves a landing page and email signup form with client-side validation using JavaScript."
 image: "/images/projects/base-apparel-coming-soon-page.png"
+imageMobile: "/images/projects/base-apparel-coming-soon-page-mobile.png"
 imageAlt: "Base Apparel Coming Soon Page"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 1
+difficultyNumber: 1
+difficultyDescription: "newbie"
 challengeUrl: "https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0"
 siteUrl: "https://base-apparel-coming-soon-gkhynes.vercel.app/"
 repoUrl: "https://github.com/gerhynes/base-apparel-coming-soon"

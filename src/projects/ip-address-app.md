@@ -2,13 +2,15 @@
 title: "IP Address App"
 summary: "This project uses two APIs and serverless functions to match IP addresses to map locations."
 image: "/images/projects/ip-address-app.png"
+imageMobile: "/images/projects/ip-address-app-mobile.png"
 imageAlt: "IP Address app"
 tech:
   - "React"
   - "Serverless Functions"
   - "APIs"
   - "Leaflet.js"
-difficulty: 3
+difficultyNumber: 3
+difficultyDescription: "intermediate"
 challengeUrl: "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0"
 siteUrl: "https://goofy-spence-1d3ac9.netlify.app/"
 repoUrl: "https://github.com/gerhynes/ip-address-tracker"

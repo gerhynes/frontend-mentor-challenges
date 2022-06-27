@@ -2,12 +2,14 @@
 title: "Social Media Dashboard"
 summary: "This project uses CSS Custom Properties and CSS Grid to create a responsive dashboard with dark mode."
 image: "/images/projects/social-media-dashboard.png"
+imageMobile: "/images/projects/social-media-dashboard-mobile.png"
 imageAlt: "Social media dashboard"
 tech:
   - "CSS Grid"
   - "CSS Custom Properties"
   - "Dark Mode"
-difficulty: 2
+difficultyNumber: 2
+difficultyDescription: "junior"
 challengeUrl: "https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H"
 siteUrl: "https://social-media-dashboard-five-coral.vercel.app/"
 repoUrl: "https://github.com/gerhynes/social-media-dashboard"

@@ -2,11 +2,13 @@
 title: "Social Proof Section"
 summary: "This project uses CSS Flexbox to build a social proof component."
 image: "/images/projects/social-proof-section.png"
+imageMobile: "/images/projects/social-proof-section-mobile.png"
 imageAlt: "Social Proof Section"
 tech:
   - "HTML"
   - "CSS"
-difficulty: 2
+difficultyNumber: 2
+difficultyDescription: "junior"
 challengeUrl: "https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA"
 siteUrl: "https://social-proof-section-sooty-psi.vercel.app/"
 repoUrl: "https://github.com/gerhynes/social-proof-section"

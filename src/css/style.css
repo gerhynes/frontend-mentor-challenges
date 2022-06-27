@@ -7,6 +7,9 @@
   --purple: #3e54a3;
   --pink: #cf6390;
   --lime: #aad742;
+  --orange: #f1b604;
+  --red: #ed2c49;
+  --white: #fff;
   --shadow-medium: 0 10px 15px -3px rgb(0 0 0 / 0.1),
     0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
@@ -24,6 +27,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -48,7 +52,6 @@ ul {
   list-style: none;
 }
 
-/* Utility classes */
 .container {
   max-width: 72rem;
   margin-inline: auto;
@@ -72,21 +75,35 @@ ul {
   margin-bottom: 0.5rem;
 }
 
-.heading--main {
-  text-align: center;
-  font-weight: 600;
-}
-
 /* Header styles */
 .header {
   padding: 1rem 0;
   border-bottom: 1px solid var(--grey-light);
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .heading--page-heading {
   font-size: 1.75rem;
   margin-bottom: 0;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.heading--page-heading::after {
+  content: "";
+  left: 0px;
+  bottom: -4px;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  background-color: var(--red);
+  transform: scaleX(0);
+  transition: transform 0.3s ease 0s;
+}
+
+.heading--page-heading:hover::after {
+  transform: scaleX(1);
 }
 
 /* Main content styles */
@@ -97,7 +114,7 @@ ul {
 .description {
   font-size: 1.1875rem;
   max-width: 65ch;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 4rem auto;
 }
 
 .description__paragraph {
@@ -115,17 +132,19 @@ ul {
 
 /* Footer styles */
 .footer {
+  width: 100%;
   text-align: center;
-  flex-shrink: 0;
   padding: 0.5rem;
+  font-weight: 600;
+  border-top: 1px solid var(--grey-light);
 }
 
-/* Project Styles */
+/* Project-card Styles */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .project-card {
@@ -134,68 +153,125 @@ ul {
   overflow: hidden;
 }
 
-.card__head {
+.project-card__head {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
 
-.card__image {
+.project-card__image {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   transition: transform 0.3s ease 0s;
 }
 
-.card__image:hover {
+.project-card__image:hover {
   transform: scale(1.05);
 }
 
-.card__body {
+.project-card__body {
   padding: 1rem;
 }
 
-.card__heading {
+.project-card__heading {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
-.card__heading:hover {
+.project-card__heading:hover {
   text-decoration: underline;
 }
 
-.project__tags {
+.project-card__details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.project-card__tags {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0;
 }
 
-.project__tag {
+.project-card__tag {
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.project__tag:first-child {
+.project-card__tag:first-child {
   color: var(--teal);
 }
 
-.project__tag:nth-child(2) {
+.project-card__tag:nth-child(2) {
   color: var(--purple);
 }
 
-.project__tag:nth-child(3) {
+.project-card__tag:nth-child(3) {
   color: var(--pink);
 }
 
-.project__tag:nth-child(4) {
+.project-card__tag:nth-child(4) {
   color: var(--lime);
 }
 
-.project__summary {
+.project-card__difficulty {
+  display: inline-flex;
+  border: 1px solid var(--teal);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.project-card__difficulty--junior {
+  border: 1px solid var(--lime);
+}
+
+.project-card__difficulty--intermediate {
+  border: 1px solid var(--orange);
+}
+
+.project-card__difficulty-number {
+  background-color: var(--teal);
+  font-weight: 700;
+  padding: 0 0.75rem;
+  color: #fff;
+}
+
+.project-card__difficulty-number--junior {
+  background-color: var(--lime);
+}
+
+.project-card__difficulty-number--intermediate {
+  background-color: var(--orange);
+}
+
+.project-card__difficulty-description {
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 0.875rem;
+  padding: 0 0.75rem;
+  color: var(--teal);
+  font-weight: 700;
+}
+
+.project-card__difficulty-description--junior {
+  color: var(--lime);
+}
+
+.project-card__difficulty-description--intermediate {
+  color: var(--orange);
+}
+
+.project-card__summary {
+  font-size: 1.125rem;
   color: var(--grey-dark);
 }
 
+/* Project Styles */
 .project {
   max-width: 42rem;
 }
@@ -204,13 +280,28 @@ ul {
   font-size: 2rem;
 }
 
-.project__image {
-  max-width: 42rem;
-  margin-inline: auto;
+.project__image-wrapper {
   margin-bottom: 1.5rem;
 }
 
+.project__image-caption {
+  text-align: center;
+  color: var(--grey-dark);
+}
+
+.project__image {
+  max-width: 42rem;
+  margin-inline: auto;
+}
+
+.project__image--mobile {
+  max-width: 18rem;
+  margin: auto;
+}
+
 .project__content {
+  max-width: 65ch;
+  margin: auto;
   margin-bottom: 2rem;
 }
 
@@ -219,7 +310,7 @@ ul {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 .project__link {
@@ -227,18 +318,19 @@ ul {
   align-items: center;
   padding: 0.25rem 1rem;
   border-radius: 9999px;
-  border: 2px solid var(--grey-light);
+  border: 0px none;
+  background-color: var(--red);
+  color: var(--white);
   font-style: italic;
   font-weight: 600;
-  transition: var(--shadow-medium);
+  transition: transform 0.3s ease 0s, box-shadow 0.3s ease 0s;
 }
 
 .project__link:hover {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.5rem 1rem;
-  transform: scale(1.015);
+  box-shadow: var(--shadow-medium);
 }
 
-.icon {
+.project__link-icon {
   width: 1rem;
   height: 1rem;
   color: inherit;
@@ -246,13 +338,22 @@ ul {
 }
 
 /* Prose Styles */
+.prose {
+  font-size: 1.125rem;
+}
+
 .prose h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 .prose ul {
   margin-bottom: 1rem;
+}
+
+.prose ul > li {
+  position: relative;
+  padding-left: 1.75em;
 }
 
 .prose ul > li::before {
@@ -266,11 +367,6 @@ ul {
   left: 0.25em;
 }
 
-.prose ul > li {
-  position: relative;
-  padding-left: 1.75em;
-}
-
 .prose p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
