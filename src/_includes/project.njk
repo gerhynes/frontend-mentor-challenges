@@ -4,9 +4,9 @@ layout: "base.njk"
 
 <div class="project">
   <h2 class="heading heading--primary project__heading">{{ title }}</h2>
-
   <figure class="project__image-wrapper">
-    <img class="project__image" src="{{ image }}" alt="{{ imageAlt }}">
+    {# <img class="project__image" src="{{ image }}" alt="{{ imageAlt }}"> #}
+    {% 11tyImage "./src" + image, title, "100vw" %}
     <figcaption class="project__image-caption">Desktop layout</figcaption>
   </figure>
 
@@ -14,8 +14,9 @@ layout: "base.njk"
     {{ content | safe }}
   </div>
 
-  <figure class="project__image-wrapper">
-    <img class="project__image--mobile" src="{{ imageMobile }}" alt="{{ imageAlt }}">
+  <figure class="project__image-wrapper--mobile">
+    {# <img class="project__image--mobile" src="{{ imageMobile }}" alt="{{ imageAlt }}"> #}
+    {% 11tyImage "./src" + imageMobile, title, "100vw" %}
     <figcaption class="project__image-caption">Mobile layout</figcaption>
   </figure>
 

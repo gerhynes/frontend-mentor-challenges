@@ -1,7 +1,10 @@
 <div class="project-card">
   <div class="project-card__head">
     <a href="{{ project.url }}">
-     <img class="project-card__image" src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}">
+      <div class="project-card__image-wrapper">
+        {# {% 11tyImage "./src" + project.data.image, project.data.imageAlt, "100vw" %} #}
+      </div>
+     {# <img class="project-card__image" src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}"> #}
     </a>
   </div>
   <div class="project-card__body">
@@ -10,6 +13,7 @@
         {{ project.data.title }}
     </a>
   </h3>
+  {{project.data.imageAlt}}
   <div class="project-card__details">
     <div class="project-card__tags">
       {% for tag in project.data.tech %}
