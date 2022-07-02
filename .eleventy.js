@@ -1,8 +1,8 @@
 const Image = require("@11ty/eleventy-img");
 
 async function imageShortcode(src, alt, sizes) {
-  let metadata = await Image(src, {
-    widths: [300, 700],
+  let metadata = await Image(`./src${src}`, {
+    widths: [300, 700, null],
     formats: ["avif", "jpeg"],
     urlPath: "/images/projects/",
     outputDir: "./public/images/projects/"
@@ -15,9 +15,11 @@ async function imageShortcode(src, alt, sizes) {
     decoding: "async"
   };
 
-  // console.log(metadata);
+  console.log(metadata);
 
-  return Image.generateHTML(metadata, imageAttributes);
+  return Image.generateHTML(metadata, imageAttributes, {
+    whitespaceMode: "inline"
+  });
 }
 
 module.exports = function (eleventyConfig) {
