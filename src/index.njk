@@ -15,9 +15,10 @@ layout: "base.njk"
 </p>
 </div>
 <div class="project-grid">
-  {% for project in collections.projectsByDifficulty %}
+
+  {% asyncEach project in collections.projectsByDifficulty %}
 
   {% include 'project-card.njk' %}
 
-  {% endfor %}
+  {% endeach %}
 </div>

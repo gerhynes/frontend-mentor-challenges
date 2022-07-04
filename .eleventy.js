@@ -15,11 +15,7 @@ async function imageShortcode(src, alt, sizes) {
     decoding: "async"
   };
 
-  console.log(metadata);
-
-  return Image.generateHTML(metadata, imageAttributes, {
-    whitespaceMode: "inline"
-  });
+  return Image.generateHTML(metadata, imageAttributes);
 }
 
 module.exports = function (eleventyConfig) {
